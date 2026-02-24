@@ -121,7 +121,6 @@ class Picture_Encryption(AES_interface):
 
             self.pictures.append(get_image(name=dec_name, path=dec_path, image=decrypted_img, status="decrypted"))
 
-
     def get_state(self) -> None:
         print("========================")
         for pic in self.pictures:
